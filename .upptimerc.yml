@@ -40,6 +40,18 @@ status-website:
   introTitle: "**BreathFM** ist ein Webradio aus der Schweiz welches in die ganze Welt streamt!"
   introMessage: Hier seht ihr den Status unserer Sender!
   customBodyHtml: <div class="bg-image"></div>
+  favicon: https://r2.e-z.host/7e095bd3-bee6-4515-afab-65c01b5c886c/srk5mbe3.png
+  metaTags:
+    - name: "theme-color"
+      content: "#292a2a"
+    - name: "twitter:title"
+      content: "BreathFM Status"
+    - name: "og:title"
+      content: "BreathFM Status"
+    - name: "og:description"
+      content: "Status der Radio-Sender von BreathFM!"
+    - name: "description"
+      content: "Status der Radio-Sender von BreathFM!"
   navbar:
     - title: BreathFM
       href: https://breathfm.de/
