@@ -6,12 +6,21 @@ body {
 }
 article {
   border-radius: 10px;
-  box-shadow: 0px 0px 15px #101010
+  box-shadow: 0px 0px 10px #101010;
 } 
 
 article.down-active {
   background: var(--down-background-color);
   border-color: #521515;
-  background-color: #521515
+  background-color: rgba(82,21,21,0.9);
+  filter: opacity(0.9);
 }
 
+#sapper .container:nth-child(3) > .up:nth-child(2){
+ background-color:rgba(25,127,0,0.9);
+}
+
+.tag.closed,
+.tag.up {
+  color: white;
+}
