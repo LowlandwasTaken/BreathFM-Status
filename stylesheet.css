@@ -24,3 +24,8 @@ article.down-active {
 .tag.up {
   color: white;
 }
+
+.tag.open,
+.tag.down {
+  color: white;
+}
