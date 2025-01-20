@@ -1,36 +1,51 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: LowlandwasTaken # Your GitHub organization or username, where this repository lives
+repo: BreathFM-Status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Mainstream
+    url: 88.99.104.157
+    port: 8020
     check: "tcp-ping"
-    ipv6: true
+    ipv6: false
+  - name: InTheMiX
+    url: 88.99.104.157
+    port: 8030
+    check: "tcp-ping"
+    ipv6: false
+  - name: WinterMix
+    url: 88.99.104.157
+    port: 8060
+    check: "tcp-ping"
+    ipv6: false
+  - name: Chill
+    url: 88.99.104.157
+    port: 8070
+    check: "tcp-ping"
+    ipv6: false
+  - name: SummerMix
+    url: 88.99.104.157
+    port: 8040
+    check: "tcp-ping"
+    ipv6: false
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.lowlandmusic.de
+  logoUrl: https://breathfm.de/static/media/Logo.4eaca830821acccb7df5490a622f2bb4.svg
+  name: BreathFM Status
+  themeUrl: https://status.lowlandmusic.de/custom.css
+  introTitle: "**BreathFM** ist ein Webradio aus der Schweiz welches in die ganze Welt streamt!"
+  introMessage: Hier seht ihr den Status unserer Sender!
+  customBodyHtml: <div class="bg-image"></div>
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: BreathFM
+      href: https://breathfm.de/
+  links:
+    - rel: stylesheet
+      href: https://status.lowlandmusic.de/stylesheet.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
