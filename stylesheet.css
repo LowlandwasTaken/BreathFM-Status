@@ -1,15 +1,17 @@
-.bg-image {
-  background-image: url("https://www.delamar.de/wp-content/uploads/2017/04/musikmesse_studio_equipment_highlights.jpg");
-
-  /* Add the blur effect */
-  filter: blur(4.78px) brightness(0.72) grayscale(1);
-  -webkit-filter: blur(4.78px) brightness(0.72) grayscale(1);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
+body {
+  background-image: url("https://breathfm.de/static/media/background.a4de14fdf90222d14e1e.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
+article {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #101010
+} 
+
+article.down-active {
+  background: var(--down-background-color);
+  border-color: #521515;
+  background-color: #521515
+}
+
