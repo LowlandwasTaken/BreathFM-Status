@@ -23,11 +23,6 @@ sites:
     port: 8070
     check: "tcp-ping"
     ipv6: false
-  - name: SummerMix
-    url: 88.99.104.157
-    port: 8040
-    check: "tcp-ping"
-    ipv6: false
 
 
 status-website:
