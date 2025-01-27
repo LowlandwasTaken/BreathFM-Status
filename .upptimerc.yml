@@ -33,10 +33,10 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.lowlandmusic.de
+  cname: status.breathfm.de
   logoUrl: https://breathfm.de/static/media/Logo.4eaca830821acccb7df5490a622f2bb4.svg
   name: BreathFM Status
-  themeUrl: https://status.lowlandmusic.de/custom.css
+  themeUrl: https://status.breathfm.de/custom.css
   introTitle: "**BreathFM** ist ein Webradio aus der Schweiz welches in die ganze Welt streamt!"
   introMessage: Hier seht ihr den Status unserer Sender!
   customBodyHtml: <div class="bg-image"></div>
@@ -57,7 +57,7 @@ status-website:
       href: https://breathfm.de/
   links:
     - rel: stylesheet
-      href: https://status.lowlandmusic.de/stylesheet.css
+      href: https://status.breathfm.de/stylesheet.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
