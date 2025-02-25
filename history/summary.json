@@ -40,7 +40,7 @@
     "url": "88.99.104.157",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "winter-mix",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 127,
     "timeMonth": 121,
     "timeYear": 120,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-25": 0
+    }
   },
   {
     "name": "Chill",
