@@ -18,6 +18,12 @@ sites:
     port: 8070
     check: "tcp-ping"
     ipv6: false
+  - name: BPMRush
+    url: 88.99.104.157
+    port: 8090
+    check: "tcp-ping"
+    ipv6: false
+    
 
 
 status-website:
