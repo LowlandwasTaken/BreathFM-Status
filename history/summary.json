@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "97.32%",
     "time": 121,
-    "timeDay": 96,
-    "timeWeek": 125,
-    "timeMonth": 124,
+    "timeDay": 140,
+    "timeWeek": 121,
+    "timeMonth": 125,
     "timeYear": 121,
     "dailyMinutesDown": {
       "2025-03-06": 1147,
@@ -37,9 +37,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "97.32%",
     "time": 121,
-    "timeDay": 95,
-    "timeWeek": 125,
-    "timeMonth": 124,
+    "timeDay": 142,
+    "timeWeek": 121,
+    "timeMonth": 125,
     "timeYear": 121,
     "dailyMinutesDown": {
       "2025-03-06": 1147,
@@ -63,9 +63,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "97.32%",
     "time": 121,
-    "timeDay": 94,
-    "timeWeek": 124,
-    "timeMonth": 124,
+    "timeDay": 141,
+    "timeWeek": 121,
+    "timeMonth": 125,
     "timeYear": 121,
     "dailyMinutesDown": {
       "2025-03-06": 1147,
@@ -83,18 +83,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "bpm-rush",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.67%",
+    "uptimeDay": "70.80%",
+    "uptimeWeek": "95.83%",
+    "uptimeMonth": "99.04%",
+    "uptimeYear": "99.67%",
     "time": 123,
-    "timeDay": 94,
-    "timeWeek": 125,
+    "timeDay": 0,
+    "timeWeek": 118,
     "timeMonth": 124,
     "timeYear": 123,
     "dailyMinutesDown": {
-      "2025-07-25": 0
+      "2025-07-26": 56,
+      "2025-07-25": 365
     }
   }
 ]
