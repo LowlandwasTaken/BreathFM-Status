@@ -5,22 +5,22 @@ repo: BreathFM-Status # The name of this repository
 sites:
   - name: Mainstream
     url: 88.99.104.157
-    port: 8020
+    port: 8000
     check: "tcp-ping"
     ipv6: false
   - name: InTheMiX
     url: 88.99.104.157
-    port: 8030
+    port: 8010
     check: "tcp-ping"
     ipv6: false
   - name: Chill
     url: 88.99.104.157
-    port: 8070
+    port: 8020
     check: "tcp-ping"
     ipv6: false
-  - name: BPMRush
+  - name: 2010s
     url: 88.99.104.157
-    port: 8090
+    port: 8030
     check: "tcp-ping"
     ipv6: false
     
